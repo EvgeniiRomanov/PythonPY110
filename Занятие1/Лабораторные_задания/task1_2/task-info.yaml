@@ -8,15 +8,15 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 149
-    length: 45
+  - offset: 150
+    length: 25
     placeholder_text: '...  # TODO найти длину самого длинного слова'
     initial_state:
       length: 45
       offset: 149
     initialized_from_dependency: false
-    selected: false
-    status: Unchecked
+    selected: true
+    status: Solved
     encrypted_possible_answer: max(map(len, list_words))
   text: |
     def task() -> int:
@@ -37,5 +37,8 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Sat, 13 Nov 2021 08:16:20 UTC
 record: -1

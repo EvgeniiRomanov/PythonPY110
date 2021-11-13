@@ -3,13 +3,14 @@ def get_distance(point: tuple) -> int:
 
 
 def task(points: list) -> tuple:
+    return max(points, key=get_distance)
     # TODO заменить на функцию max и функцию get_distance
-    list_distances = list(map(get_distance, points))
-    max_distance = max(list_distances)
-
-    for index, current_distance in enumerate(list_distances):
-        if current_distance == max_distance:
-            return points[index]
+    # list_distances = list(map(get_distance, points))
+    # max_distance = max(list_distances)
+    #
+    # for index, current_distance in enumerate(list_distances):
+    #     if current_distance == max_distance:
+    #         return points[index]
 
 
 if __name__ == "__main__":

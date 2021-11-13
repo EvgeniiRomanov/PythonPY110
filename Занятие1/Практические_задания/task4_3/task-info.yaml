@@ -8,7 +8,7 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 240
+  - offset: 241
     length: 49
     placeholder_text: '[2] * len(my_floats)))  # TODO заменить на repeat'
     initial_state:
@@ -16,7 +16,7 @@ files:
       offset: 240
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: repeat(2)))
   text: |
     from itertools import repeat
@@ -42,5 +42,8 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Sat, 13 Nov 2021 08:02:00 UTC
 record: -1

@@ -13,7 +13,8 @@ def list_not_iterator():
     list_ = [1, 2, 3]
 
     try:
-        next(list_)
+        #next(list_)
+        print(list(iter(list_)))
     except TypeError:  # ожидаем ошибку TypeError: 'list' object is not an iterator
         print_exc()
 

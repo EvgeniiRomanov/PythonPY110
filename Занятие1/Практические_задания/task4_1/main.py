@@ -6,13 +6,13 @@ def task():
 
     print(f"Является ли объект итератором? {iterator_numbers is iter(iterator_numbers)}")  # Итератор
     for _ in range(5):  # распечатать первые 5 натуральных чисел
-        print(...)  # TODO как получить от итератора следующий объект?
-
+        #print(...)  # TODO как получить от итератора следующий объект?
+        print(next(iterator_numbers))
     print("Выполнение некоторого кода ...")
 
     for _ in range(5):  # распечатать следующие 5 натуральных чисел
-        print(...)  # TODO как получить от итератора следующий объект?
-
+        #print(...)  # TODO как получить от итератора следующий объект?
+        print(next(iterator_numbers))
 
 if __name__ == "__main__":
     task()

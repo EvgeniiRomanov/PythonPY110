@@ -17,7 +17,7 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 76
+  - offset: 172
     length: 67
     placeholder_text: '# TODO распечатать с столбик первые 10 чисел бесконечного итератора'
     initial_state:
@@ -25,7 +25,7 @@ files:
       offset: 76
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: |-
       for _ in range(10):
               number = next(counter)
@@ -46,5 +46,8 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Sat, 13 Nov 2021 09:09:28 UTC
 record: -1

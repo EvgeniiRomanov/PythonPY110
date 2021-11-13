@@ -23,7 +23,7 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 43
+  - offset: 45
     length: 62
     placeholder_text: '[hex(num) for num in numbers]  # TODO заменить на итератор
       map'
@@ -32,9 +32,9 @@ files:
       offset: 43
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: map(hex, numbers)
-  - offset: 131
+  - offset: 140
     length: 81
     placeholder_text: '...:  # TODO используя zip объединить число и его шестнадцатеричное
       представление'
@@ -43,7 +43,7 @@ files:
       offset: 131
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: 'zip(numbers, hex_numbers):'
   text: |
     def task(numbers: list):
@@ -60,5 +60,8 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Sat, 13 Nov 2021 08:05:22 UTC
 record: -1

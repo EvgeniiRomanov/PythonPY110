@@ -8,7 +8,7 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 149
+  - offset: 150
     length: 92
     placeholder_text: '...  # используй ключевую у функции min, по которой она долна
       определять минимальный элемент'
@@ -17,7 +17,7 @@ files:
       offset: 149
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Solved
     encrypted_possible_answer: min(list_words, key=len)
   text: |
     def task() -> str:
@@ -38,5 +38,8 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Sat, 13 Nov 2021 08:37:21 UTC
 record: -1
