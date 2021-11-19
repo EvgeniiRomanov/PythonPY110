@@ -11,7 +11,7 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 134
+  - offset: 135
     length: 58
     placeholder_text: '[get_distance(point) for point in points]  # TODO записать
       через map'
@@ -19,7 +19,7 @@ files:
       length: 68
       offset: 134
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: list(map(get_distance, points))
   text: |
@@ -44,5 +44,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: Sat, 13 Nov 2021 07:13:19 UTC
+  time: Wed, 17 Nov 2021 14:02:31 UTC
 record: -1

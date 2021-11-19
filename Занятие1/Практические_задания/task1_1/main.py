@@ -1,3 +1,4 @@
+
 def get_distance(point: tuple) -> int:
     return (point[0] ** 2 + point[1] ** 2) ** 0.5
 
@@ -15,3 +16,4 @@ if __name__ == "__main__":
     ]
 
     print(task(pts))
+

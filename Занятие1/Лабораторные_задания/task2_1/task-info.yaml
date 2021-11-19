@@ -9,13 +9,13 @@ files:
   visible: true
   placeholders:
   - offset: 57
-    length: 57
+    length: 56
     placeholder_text: '...)  # TODO отфильтровать только буквы нижнего регистра'
     initial_state:
       length: 56
       offset: 57
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: filter(str.islower, camel_case_str))
   text: |
@@ -33,5 +33,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: Sat, 13 Nov 2021 08:59:40 UTC
+  time: Wed, 17 Nov 2021 14:25:04 UTC
 record: -1

@@ -8,7 +8,7 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 43
+  - offset: 42
     length: 88
     placeholder_text: '[word.upper() for word in words]  # TODO перевести слова в
       верхний регистр c помощью map'
@@ -16,7 +16,7 @@ files:
       length: 88
       offset: 42
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Solved
     encrypted_possible_answer: list(map(str.upper, words))
   text: |
@@ -41,5 +41,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: Sat, 13 Nov 2021 07:24:26 UTC
+  time: Wed, 17 Nov 2021 14:05:31 UTC
 record: -1

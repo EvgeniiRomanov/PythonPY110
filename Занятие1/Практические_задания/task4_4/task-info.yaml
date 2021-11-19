@@ -23,7 +23,7 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 45
+  - offset: 43
     length: 62
     placeholder_text: '[hex(num) for num in numbers]  # TODO заменить на итератор
       map'
@@ -34,7 +34,7 @@ files:
     selected: false
     status: Solved
     encrypted_possible_answer: map(hex, numbers)
-  - offset: 140
+  - offset: 131
     length: 81
     placeholder_text: '...:  # TODO используя zip объединить число и его шестнадцатеричное
       представление'
@@ -63,5 +63,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: Sat, 13 Nov 2021 08:05:22 UTC
+  time: Wed, 17 Nov 2021 14:19:34 UTC
 record: -1

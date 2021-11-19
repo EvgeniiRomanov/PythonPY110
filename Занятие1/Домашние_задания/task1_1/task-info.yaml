@@ -13,5 +13,16 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
-status: Unchecked
+status: Failed
+feedback:
+  message: Incorrect
+  time: Wed, 17 Nov 2021 15:12:42 UTC
+  actual: |
+    0 1
+    1 4
+    2 6
+    3 8
+    4 4
+    5 2
+    [(0, 1), (1, 4), (2, 6), (3, 8), (4, 4), (5, 2)]
 record: -1

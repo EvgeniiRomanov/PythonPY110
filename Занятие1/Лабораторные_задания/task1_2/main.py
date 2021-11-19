@@ -7,8 +7,8 @@ def task() -> int:
         "Cyan"
     ]
 
-    #return max(map(len, list_words))
-    return max(list_words, key=len)
+    return max(map(len, list_words))
+    #return max(list_words, key=len)
 
 if __name__ == "__main__":
     print(task())

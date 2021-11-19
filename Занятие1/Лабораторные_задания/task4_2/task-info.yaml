@@ -17,14 +17,14 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 65
+  - offset: 64
     length: 49
     placeholder_text: '...  # TODO бесконечно повторяем элементы кортежа'
     initial_state:
       length: 49
       offset: 64
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: itertools.cycle(a)
   text: |
@@ -47,5 +47,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: Sat, 13 Nov 2021 09:13:45 UTC
+  time: Wed, 17 Nov 2021 14:26:42 UTC
 record: -1

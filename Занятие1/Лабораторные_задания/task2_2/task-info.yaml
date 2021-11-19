@@ -8,7 +8,7 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 127
+  - offset: 126
     length: 87
     placeholder_text: '[num for num in list_numbers if num < 0])  # TODO заменить
       list comprehension на filter'
@@ -35,5 +35,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: Sat, 13 Nov 2021 09:03:53 UTC
+  time: Wed, 17 Nov 2021 14:25:27 UTC
 record: -1

@@ -11,7 +11,7 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 148
+  - offset: 64
     length: 52
     placeholder_text: '...  # TODO  вернуть список температур по Фаренгейту'
     initial_state:
@@ -19,7 +19,7 @@ files:
       offset: 64
     initialized_from_dependency: false
     selected: false
-    status: Solved
+    status: Failed
     encrypted_possible_answer: 'list(map(lambda temp: temp * (9 / 5) + 32, temp_tuple))'
   text: |
     def task() -> list:
@@ -31,8 +31,12 @@ files:
     if __name__ == "__main__":
         print(task())
   learner_created: false
-status: Solved
+status: Failed
 feedback:
-  message: Congratulations!
-  time: Sat, 13 Nov 2021 09:34:46 UTC
+  message: Incorrect
+  time: Wed, 17 Nov 2021 14:28:56 UTC
+  expected: |
+    [32.0, 97.88000000000001, 212.0]
+  actual: |
+    [32.0, 97.88, 212.0]
 record: -1

@@ -17,7 +17,7 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 163
+  - offset: 91
     length: 81
     placeholder_text: '[i ** 2 for i in iterator_numbers if i % 2 == 0]  # TODO заменить
       на map и filter'
@@ -29,17 +29,17 @@ files:
     status: Solved
     encrypted_possible_answer: 'map(lambda x: x ** 2, filter(lambda x: x % 2 == 0,
       iterator_numbers))'
-  - offset: 401
+  - offset: 182
     length: 50
     placeholder_text: 'num in numbers:  # TODO напечатать первые 10 чисел'
     initial_state:
       length: 50
       offset: 182
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: '_ in range(10):'
-  - offset: 468
+  - offset: 247
     length: 67
     placeholder_text: 'num)  # TODO с помощью next получать следующий элемент от итератора'
     initial_state:
@@ -70,5 +70,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: Sat, 13 Nov 2021 07:58:07 UTC
+  time: Wed, 17 Nov 2021 14:17:27 UTC
 record: -1

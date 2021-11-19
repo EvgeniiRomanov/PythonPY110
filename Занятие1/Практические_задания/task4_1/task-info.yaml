@@ -19,7 +19,7 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 344
+  - offset: 343
     length: 56
     placeholder_text: '...)  # TODO как получить от итератора следующий объект?'
     initial_state:
@@ -29,7 +29,7 @@ files:
     selected: false
     status: Solved
     encrypted_possible_answer: next(iterator_numbers))
-  - offset: 567
+  - offset: 528
     length: 56
     placeholder_text: '...)  # TODO как получить от итератора следующий объект?'
     initial_state:
@@ -65,5 +65,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: Sat, 13 Nov 2021 07:47:50 UTC
+  time: Wed, 17 Nov 2021 14:15:08 UTC
 record: -1

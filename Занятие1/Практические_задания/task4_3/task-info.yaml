@@ -8,7 +8,7 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 241
+  - offset: 240
     length: 49
     placeholder_text: '[2] * len(my_floats)))  # TODO заменить на repeat'
     initial_state:
@@ -45,5 +45,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: Sat, 13 Nov 2021 08:02:00 UTC
+  time: Wed, 17 Nov 2021 14:18:54 UTC
 record: -1

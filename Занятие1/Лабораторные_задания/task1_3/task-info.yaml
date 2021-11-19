@@ -8,7 +8,7 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 150
+  - offset: 149
     length: 92
     placeholder_text: '...  # используй ключевую у функции min, по которой она долна
       определять минимальный элемент'
@@ -41,5 +41,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: Sat, 13 Nov 2021 08:37:21 UTC
+  time: Wed, 17 Nov 2021 14:22:11 UTC
 record: -1

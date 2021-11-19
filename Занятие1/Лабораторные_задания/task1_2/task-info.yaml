@@ -8,8 +8,8 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 150
-    length: 25
+  - offset: 148
+    length: 46
     placeholder_text: '...  # TODO найти длину самого длинного слова'
     initial_state:
       length: 45
@@ -40,5 +40,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: Sat, 13 Nov 2021 08:16:20 UTC
+  time: Wed, 17 Nov 2021 14:21:58 UTC
 record: -1

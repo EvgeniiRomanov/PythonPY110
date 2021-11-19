@@ -9,24 +9,24 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 73
-    length: 36
+  - offset: 57
+    length: 12
     placeholder_text: '...]  # TODO'
     initial_state:
       length: 12
       offset: 57
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: word.capitalize() for word in words]
-  - offset: 164
+  - offset: 123
     length: 12
     placeholder_text: '...)  # TODO'
     initial_state:
       length: 12
       offset: 123
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: map(str.capitalize, words))
   text: |
@@ -60,5 +60,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: Sat, 13 Nov 2021 08:54:03 UTC
+  time: Wed, 17 Nov 2021 14:24:42 UTC
 record: -1

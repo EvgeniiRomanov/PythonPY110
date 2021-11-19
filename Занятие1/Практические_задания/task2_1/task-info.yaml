@@ -8,7 +8,7 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 66
+  - offset: 65
     length: 77
     placeholder_text: '[char for char in str_ if char.isalpha()]  # TODO переписать
       с помощью filter'
@@ -32,5 +32,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: Sat, 13 Nov 2021 07:28:28 UTC
+  time: Wed, 17 Nov 2021 14:06:09 UTC
 record: -1

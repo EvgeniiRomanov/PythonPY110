@@ -9,13 +9,13 @@ files:
   visible: true
   placeholders:
   - offset: 133
-    length: 33
+    length: 56
     placeholder_text: 'max(list(map(get_distance, points)))  # TODO убрать list'
     initial_state:
       length: 56
       offset: 133
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: max(map(get_distance, points))
   text: |
@@ -43,5 +43,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: Sat, 13 Nov 2021 07:15:54 UTC
+  time: Wed, 17 Nov 2021 14:03:48 UTC
 record: -1

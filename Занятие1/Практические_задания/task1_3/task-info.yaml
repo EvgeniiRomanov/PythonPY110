@@ -8,8 +8,8 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 169
-    length: 301
+  - offset: 128
+    length: 286
     placeholder_text: |-
       # TODO заменить на функцию max и функцию get_distance
           list_distances = list(map(get_distance, points))
@@ -56,5 +56,5 @@ files:
 status: Solved
 feedback:
   message: Congratulations!
-  time: Sat, 13 Nov 2021 07:20:21 UTC
+  time: Wed, 17 Nov 2021 14:05:05 UTC
 record: -1
