@@ -3,12 +3,6 @@
 
 def tuple_to_str(elem_tuple):
 
-    # print(elem_tuple)
-    # str1 = str(elem_tuple[0])
-    # str2 = str(elem_tuple[1])
-    # str3 = str1 + ' ' + str2
-    # return str3
-
     return str(elem_tuple[0] + " " + str(elem_tuple[1]))
 
 
