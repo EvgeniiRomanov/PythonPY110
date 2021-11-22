@@ -1,6 +1,9 @@
-def pow_gen(base: int):
-    ...  # TODO записать функцию-генератор
+from itertools import count
 
+def pow_gen(base: int):
+      # TODO записать функцию-генератор
+    for i in count(0, 1):
+        yield base ** i
 
 if __name__ == "__main__":
     pow_numbers = pow_gen(10)
