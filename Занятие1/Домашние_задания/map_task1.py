@@ -14,6 +14,6 @@ def set_to_str(elem_set):
 if __name__ == "__main__":
 
     #set_1 = {'U', 'f', 'a', 'b', 'i', 'o', 'E'}
-    set_1 = ['U', 'f', 'a', 'b', 'i', 'o', 'E', 'u', 'F']    # С повторяющимися элементами
+    set_1 = ['U', 'f', 'a', 'b', 'i', 'o', 'E', 'u', 'F']    # Если список с повторяющимися элементами
     str_ = map(set_to_str, set_1)
     print(set(str_))

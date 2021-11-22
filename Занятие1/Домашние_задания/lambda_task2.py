@@ -12,5 +12,5 @@ if __name__ == "__main__":
 
     list_tuple = [(1, 2), (3, 5), (2, 1), (7, 0, 4), (1, 9)]
 
-    #a.sort(key=lambda x: x[1])
+    #list_tuple.sort(key=lambda x: x[1])
     print(sort_tuple2(list_tuple))

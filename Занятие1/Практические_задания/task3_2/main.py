@@ -5,8 +5,10 @@ def list_iterator():
     list_ = [1, 2, 3]
     list_iter = iter(list_)
 
-    print(type(list_iter))  # <class 'list_iterator'>
+    print(type(list_), type(list_iter))  # <class 'list_iterator'>
+    print(list_, list_iter)
     print(f"Является ли объект итератором? {list_ is iter(list_)}")  # Итерируемый объект
+    print(f"Является ли объект итератором? {list_iter is iter(list_)}")  # Итерируемый объект
 
     print(next(list_iter))
     print(next(list_iter))

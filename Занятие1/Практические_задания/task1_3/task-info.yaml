@@ -22,7 +22,7 @@ files:
       length: 286
       offset: 128
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Solved
     encrypted_possible_answer: return max(points, key=get_distance)
   text: |
