@@ -18,6 +18,9 @@ files:
     line_4
     [1, 2, 3]
   learner_created: false
+- name: __init__.py
+  visible: false
+  learner_created: false
 - name: main.py
   visible: true
   placeholders:
@@ -43,9 +46,6 @@ files:
 
     if __name__ == "__main__":
         task()
-  learner_created: false
-- name: __init__.py
-  visible: false
   learner_created: false
 status: Unchecked
 record: -1

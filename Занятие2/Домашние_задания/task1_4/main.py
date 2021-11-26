@@ -5,13 +5,17 @@ from itertools import count
 #     for i in range(len(iterable) - 1):
 #        yield iterable[i], iterable[i+1]
 
-def pairwise(str_):
-    for j in count(0):
-        yield str_[j], str_[j+1]
+def pairwise(str_: str) -> tuple:
+
+    j = 0
+    while j < len(str_)-1:
+        yield str_[j], str_[j + 1]
+        j += 1
+
 
 def task():
-    for i in pairwise("ABCDEFG"):
-        print(i)
+    for i in pairwise("ABCDEFGHIK"):
+        print(f"{i[0]}{i[1]} ", end=" ")
 
 
 if __name__ == "__main__":

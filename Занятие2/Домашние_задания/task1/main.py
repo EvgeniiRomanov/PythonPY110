@@ -1,6 +1,5 @@
 from itertools import count
 
-
 def count(start_number: float = 1, step: float = 1):
 
     while True:
