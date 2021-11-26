@@ -19,7 +19,6 @@ def sub_list_gen(src_list: list, k: int):
     #     res = src_list[k * i: k * (i + 1)]
     #     yield res
 
-
     # По мне так так проще к пониманию!!!!!!!!
 
     for i in range(0, len(src_list), k):

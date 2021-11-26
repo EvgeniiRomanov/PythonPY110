@@ -18,4 +18,4 @@ if __name__ == "__main__":
     print_args('a', 5, 10)
     print_kwargs(a="10", base = 'ashgaohrg')
 
-    print_args_kwargs()
+    print_args_kwargs('a', 5, 10, a = '10', b = 50)
