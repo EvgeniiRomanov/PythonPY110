@@ -9,7 +9,7 @@ def output_type_list(fn):
 
 
 @output_type_list
-def return_list() -> list:
+def return_list(*args) -> list:
     return []
 
 
@@ -19,5 +19,5 @@ def return_tuple() -> str:
 
 
 if __name__ == "__main__":
-    return_list()
+    return_list(4, 5, 3)
     return_tuple()

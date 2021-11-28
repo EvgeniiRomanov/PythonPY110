@@ -19,7 +19,7 @@ files:
       offset: 395
     initialized_from_dependency: false
     selected: false
-    status: Unchecked
+    status: Failed
     encrypted_possible_answer: print(json.dumps(python_obj, indent=4, ensure_ascii=False))
   text: |
     import json
@@ -60,5 +60,14 @@ files:
         "русские слова": "c ними беда :(("
     }
   learner_created: false
-status: Unchecked
+status: Failed
+feedback:
+  message: Incorrect
+  time: Sat, 27 Nov 2021 07:31:14 UTC
+  expected: |
+    {
+        "русские слова": "c ними беда :(("
+    }
+  actual: |
+    {'русские слова': 'c ними беда :(('}
 record: -1
