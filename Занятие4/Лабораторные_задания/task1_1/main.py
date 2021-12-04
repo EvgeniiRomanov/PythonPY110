@@ -2,7 +2,14 @@ import json
 import re
 
 BOOKS_FILE = "books.md"
-BOOK_REGEX = ...  # TODO записать ругулярное выражения для поиска книги
+POSITION = r'[#]{4}\s(?P<position>\d+)'
+#BOOK = r'(?P<book>\[(\w+\s{0,}){1,}\])' #почему то не выводит 25 книгу
+BOOK = r'\[(?P<book>.+?)\]'
+BOOK_URL = r'\((?P<URL>.+?)\)'
+AUTHOR = r'(?P<author>.+?)\s+\('
+RECOMMEND = r'\((?P<recommend>\d{1,3}\.\d+%)'
+COVER_URL = 
+BOOK_REGEX = f"{POSITION}\.\s+{BOOK}{BOOK_URL}\s+by\s+{AUTHOR}"  # TODO записать ругулярное выражения для поиска книги
 
 
 def task():

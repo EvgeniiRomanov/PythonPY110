@@ -7,13 +7,13 @@ files:
   visible: true
   placeholders:
   - offset: 156
-    length: 44
+    length: 57
     placeholder_text: '...)  # TODO используйте запоминающие группы'
     initial_state:
       length: 44
       offset: 156
     initialized_from_dependency: false
-    selected: false
+    selected: true
     status: Unchecked
     encrypted_possible_answer: r"@(\w+)\.(\w+)")
   text: |
