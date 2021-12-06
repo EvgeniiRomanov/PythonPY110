@@ -7,17 +7,10 @@ files:
     Два
     Три
   learner_created: false
-- name: output.txt
-  visible: true
-  text: |
-    Один
-    Два
-    Три
-  learner_created: false
 - name: main.py
   visible: true
   placeholders:
-  - offset: 178
+  - offset: 207
     length: 67
     placeholder_text: '...  # TODO с помощью метода write запишите построчно содержимое
       списка'
@@ -49,6 +42,9 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
+- name: output.txt
+  visible: true
+  learner_created: true
 status: Solved
 feedback:
   message: Congratulations!
