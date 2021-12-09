@@ -81,7 +81,7 @@ files:
     encrypted_possible_answer: |-
       with open(input_filename) as f:
               json_data = json.load(f)
-  - offset: 260
+  - offset: 285
     length: 62
     placeholder_text: '...  # TODO записать содержимое в json файл output.json с отступами'
     initial_state:

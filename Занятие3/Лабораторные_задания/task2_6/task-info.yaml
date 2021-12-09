@@ -133,7 +133,7 @@ files:
     selected: true
     status: Solved
     encrypted_possible_answer: 'sorted(json_data, key=lambda item: item["length"])'
-  - offset: 302
+  - offset: 303
     length: 64
     placeholder_text: '# TODO дополнительно записать отсортированный список в JSON
       файл'
@@ -285,6 +285,9 @@ files:
       }
     ]
   learner_created: false
+- name: output1.json
+  visible: true
+  learner_created: true
 status: Solved
 feedback:
   message: Congratulations!
