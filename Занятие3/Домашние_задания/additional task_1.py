@@ -1,3 +1,5 @@
+"""Написать декоратор, сохраняющий результат в файл output.txt помимо возвращения.
+ Результаты должны накапливаться в файле."""
 import time
 
 OUTPUT_FILE = "output.txt"
@@ -11,7 +13,8 @@ def time_decorator(fn):
         start = time.time()
         result = fn(*args, **kwargs)
         print(time.time()-start)
-
+        with open(OUTPUT_FILE, "a") as f:
+            f.write(f"time: {start} -> result: {result}\n")
         print("Этот код будет выполняться после каждого вызова функции")
         return result
     return wrapper
