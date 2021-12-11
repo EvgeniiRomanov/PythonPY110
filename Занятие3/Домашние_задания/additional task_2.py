@@ -1,7 +1,7 @@
 """Написать генератор, возвращающий по 3 символа из текстового файла,
 при этом не загружая в память весь файл."""
-INPUT_FILE_1 = "input_task2.txt"
 
+INPUT_FILE_1 = "input_task2.txt"
 
 def read_symbols(base: int):
     with open(INPUT_FILE_1, "r", encoding="UTF8") as file_1:
