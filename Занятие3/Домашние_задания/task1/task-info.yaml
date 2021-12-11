@@ -22,6 +22,9 @@ files:
 - name: test1.py
   visible: true
   learner_created: true
+- name: input_task2.txt
+  visible: true
+  learner_created: true
 status: Failed
 feedback:
   message: Incorrect
