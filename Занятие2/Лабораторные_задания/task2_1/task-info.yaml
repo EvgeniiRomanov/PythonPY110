@@ -18,8 +18,8 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 68
-    length: 9
+  - offset: 14
+    length: 0
     placeholder_text: '# TODO с помощью yield вернуть первое число'
     initial_state:
       length: 43
@@ -28,8 +28,8 @@ files:
     selected: true
     status: Solved
     encrypted_possible_answer: yield num
-  - offset: 114
-    length: 73
+  - offset: 43
+    length: 0
     placeholder_text: '# TODO с помощью yield вернуть оставшиеся степени двойки до
       бесконечности'
     initial_state:

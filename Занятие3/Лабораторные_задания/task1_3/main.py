@@ -11,5 +11,7 @@ if __name__ == "__main__":
     task()
 
     with open(OUTPUT_FILE) as file:
-        for line in file:
-            print(line, end="")
+        #for line in file:
+            #print(line, end="")
+        #st = file.readline()
+        print(file.readline())

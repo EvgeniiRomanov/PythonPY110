@@ -11,8 +11,8 @@ def task():
 
 if __name__ == "__main__":
     data = task()
-    print(json.dumps(data, indent=4))
+    #print(json.dumps(data, indent=4))
 
     # TODO дополнительно записать отсортированный список в JSON файл
-    with open('output1.json') as out:
-        json.dumps(data, out, indent=4)
+    with open('output1.json', 'w') as out:
+        json.dump(data, out, indent=4)

@@ -13,8 +13,24 @@ files:
 - name: __init__.py
   visible: false
   learner_created: false
-- name: dev_3test.py
+- name: input_1.txt
   visible: true
   learner_created: true
-status: Unchecked
+- name: input_2.txt
+  visible: true
+  learner_created: true
+- name: test1.py
+  visible: true
+  learner_created: true
+- name: input_task2.txt
+  visible: true
+  learner_created: true
+status: Failed
+feedback:
+  message: Incorrect
+  time: Fri, 10 Dec 2021 20:09:08 UTC
+  actual: |
+    [100, 4, 54, 77, 7, 30, 28, 44, 31, 58, 97, 78, 64, 23] <class 'list'>
+    [207, 264, 203, 269, 248, 254, 247, 227, 201, 272, 275, 207, 215, 254] <class 'list'>
+    ['[100, 4, 54, 77, 7, 30, 28, 44, 31, 58, 97, 78, 64, 23]'] <class 'list'>
 record: -1
