@@ -3,29 +3,29 @@ files:
 - name: main.py
   visible: true
   placeholders:
-  - offset: 249
+  - offset: 222
     length: 19
     placeholder_text: '# TODO зафиксировать время до начала выполнения функции'
     initial_state:
       length: 55
       offset: 222
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: t0 = time.time()
-  - offset: 314
+  - offset: 287
     length: 24
     placeholder_text: '# TODO зафиксировать время после выполнения'
     initial_state:
       length: 43
       offset: 323
     initialized_from_dependency: false
-    selected: true
+    selected: false
     status: Solved
     encrypted_possible_answer: |-
       dt = time.time() - t0
               print(f"Функция выполнялась {dt}")
-  - offset: 456
+  - offset: 429
     length: 15
     placeholder_text: '# TODO задекорировать функцию'
     initial_state:
