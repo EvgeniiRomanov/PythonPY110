@@ -5,29 +5,31 @@
 
 INPUT_FILE = "input_task5.txt"
 
+# def count_str() -> int:   #подсчитываем общее количество строк
+#     with open(INPUT_FILE, "r", encoding="UTF8") as f:
+#         count_str = sum(1 for _ in f)
+#         # count_str = 0
+#         # for line in f:
+#         #     count_str += 1
+#
+#     return count_str
+#
+# def read_rows():
+#     pass
 
-def count_str() -> int:   #подсчитываем количество строк
+
+def read_rows_from_end():
     with open(INPUT_FILE, "r", encoding="UTF8") as f:
-        count_str = sum(1 for _ in f)
-        # count_str = 0
-        # for line in f:
-        #     count_str += 1
-
-    return count_str
-
-def read_rows_from_end(base: int):
-    with open(INPUT_FILE, "r", encoding="UTF8") as f:
-        f.seek(0, 2)
-            print(line, end="")
-
-
-            #yield line[:base]
+        for line in f.readlines()[::-1]:
+            #print(line, end="")
+            yield line.strip()
 
 
 if __name__ == "__main__":
-    print(count_str())
-    #a_ = int(input("Введите количество строк, которые желаете считать с конца файла: "))
-    #symbols_ = read_symbols(3)
+    #print(count_str())
+    a_ = int(input("Введите количество строк, которые желаете считать с конца файла: "))
+    rows_ = read_rows_from_end()
+    for _ in range(a_):
+        print(next(rows_))
 
-    # for _ in range(25):
-    #     print(next(symbols_), end="")
+
