@@ -3,12 +3,6 @@ files:
 - name: tests/output.txt
   visible: false
   learner_created: false
-- name: __init__.py
-  visible: false
-  learner_created: false
-- name: dev_3test.py
-  visible: true
-  learner_created: true
 - name: main.py
   visible: true
   text: |
@@ -16,6 +10,12 @@ files:
         # Write your solution here
         pass
   learner_created: false
+- name: __init__.py
+  visible: false
+  learner_created: false
+- name: dev_3test.py
+  visible: true
+  learner_created: true
 - name: input_1.txt
   visible: true
   learner_created: true
